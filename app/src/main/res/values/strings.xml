@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ElecDocs</string>
+    <string name="result">Voltage Drop (V%)</string>
+    <string name="vd_btn">Voltage Drop</string>
+    <string name="nvd_btn">N Voltage Drop</string>
+    <string name="voltage">Voltage (V)</string>
+    <string name="power">Power (W)</string>
+    <string name="pf">Power Factor</string>
+</resources>

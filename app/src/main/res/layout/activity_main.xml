@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/result"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingBottom="20dp"
+            android:layout_marginTop="18dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/result"
+            android:textStyle="bold"
+            android:textColor="#00ff00"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingBottom="20dp"
+            android:layout_marginTop="18dp"/>
+    </LinearLayout>
+    <!-- <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/result1"
+             android:text="Result"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:paddingBottom="20dp"
+             android:layout_marginTop="18dp"/>
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/result2"
+             android:text="Result"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:paddingBottom="20dp"
+             android:layout_marginTop="18dp"
+             android:layout_marginLeft="25dp"
+             />
+     </LinearLayout> -->
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" >
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/voltage"
+             android:layout_weight="2"
+             android:layout_margin="40dp"/>
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/voltage"
+             android:layout_weight="2"
+             android:layout_margin="40dp"/>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" >
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/power"
+             android:layout_weight="2"
+             android:layout_margin="40dp"/>
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/power"
+             android:layout_weight="2"
+             android:layout_margin="40dp"/>
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" >
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/pf"
+             android:layout_weight="2"
+             android:layout_margin="40dp"/>
+         <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/pf"
+             android:layout_weight="2"
+             android:layout_margin="40dp"/>
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" >
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/btn"
+             android:text="@string/vd_btn"
+             android:paddingBottom="31dp"
+             android:elevation="45dp"/>
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/sbtn"
+             android:text="@string/nvd_btn"
+             android:paddingBottom="31dp"
+             android:elevation="45dp"/>
+         <!-- <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/dbtn"
+             android:text="Dupl"
+             android:paddingBottom="31dp"
+             android:elevation="45dp"/>
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/dbtn1"
+             android:text="Dup2"
+             android:paddingBottom="31dp"
+             android:elevation="45dp"/> -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        >
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:id="@+id/cbCar"
+            android:layout_below="@+id/cbCamioneta"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:checked="false" />
+        <Spinner
+            android:id="@+id/dynamic_spinner"
+            android:layout_width="100dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content" />
+        <Spinner
+            android:id="@+id/dynamic_spinner1"
+            android:layout_width="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+
